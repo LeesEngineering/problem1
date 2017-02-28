@@ -9,7 +9,7 @@ total = 0
 	for i in 1...1000
 		if i%3 == 0 or i%5 == 0
 		array = [i]
-		puts "#{array}"
+		#puts "#{array}" (This will show me all the values multiple by 3 and 5. Erase # for values to print.
 
 			array.each do |x|
 			total += x
