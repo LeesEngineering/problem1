@@ -17,5 +17,5 @@ total = 0
 		end
 	end
 end
-puts total
+puts "The sum of the multiples below 1000 is #{total}"
 
